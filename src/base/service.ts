@@ -183,7 +183,7 @@ export default class Service {
       ...options,
     };
     const requestInit: any = {
-      pathname: "/",
+      pathname: "/api/top",
       ...params,
       params: {
         ...params.query,
